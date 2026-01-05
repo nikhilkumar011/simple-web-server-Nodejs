@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<body>
+    <nav class="flex justify-between p-7 text-lg container">
+        Logo
+        <ul class="flex justify-around gap-5 mx-5 text-gray-500">
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+
+    </nav>
+
+    <div class="text-center text-lg px-5 m-10 py-10 rounded-2xl text-gray-500">
+        <h1 class="text-3xl font-extrabold font-mono text-black">Contact Us</h1>
+        <form action="" class="">
+            <div class="m-3">
+                <label for="name" class="block mb-1 text-gray-700 font-medium">Name</label>
+                <input type="text" id="name" placeholder="Enter your name"
+                    class="border border-gray-300 rounded-lg p-3 w-full text-base" />
+            </div>
+
+            <div class="m-3">
+                <label for="email" class="block mb-1 text-gray-700 font-medium">Email</label>
+                <input type="email" id="email" placeholder="Enter your email"
+                    class="border border-gray-300 rounded-lg p-3 w-full text-base "/>
+            </div>
+            <br>
+            <textarea placeholder="Your message"
+                class="border border-gray-300 rounded-lg m-3 p-4 w-full h-48 text-base resize-none "></textarea>
+
+            <br>
+
+            <button class="bg-black text-white text-lg rounded p-5 m-3 cursor-pointer">Send</button>
+        </form>
+    </div>
+</body>
+
+</html>
